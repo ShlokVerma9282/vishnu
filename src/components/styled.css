@@ -1,0 +1,27 @@
+/* .btns-group {
+  @apply flex flex-col sm:flex-row items-center;
+}
+
+button.button-primary {
+  @apply bg-blue-500 text-white font-medium py-2 px-6 rounded-lg w-full sm:w-auto;
+  transition: background-color 0.3s;
+
+  &:hover {
+    @apply bg-blue-600;
+  }
+}
+
+button.button-secondary {
+  @apply bg-gray-100 border border-gray-300 text-gray-700 font-medium py-2 px-6 rounded-lg w-full sm:w-auto;
+  transition: background-color, border-color 0.3s;
+
+  &:hover {
+    @apply bg-gray-300 border-gray-700;
+  }
+}
+
+button.button-primary:focus,
+button.button-secondary:focus {
+  outline: none;
+  box-shadow: none;
+} */
