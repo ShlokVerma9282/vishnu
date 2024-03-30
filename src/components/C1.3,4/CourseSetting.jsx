@@ -130,9 +130,6 @@ const CourseSettings = () => {
           </div>
       </div>
     </div>
-
-
-
   );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 function NewCourseForm() {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 ">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white rounded-lg shadow-md p-6">
           <div className="flex justify-between items-center mb-4">
@@ -12,7 +12,7 @@ function NewCourseForm() {
           <div className="mb-4">
             <label htmlFor="course-title" className="block mb-2 font-bold ">Course Title</label>
             <input type="text" id="course-title" className="w-full border-2 border-gray-300 p-2 rounded-lg" placeholder="Enter course title" />
-            <p style={{color:"grey"}}>© itle should be 30 character</p>
+            <p style={{color:"grey"}}>© Title should be 30 character</p>
            
           </div>
           <div className="mb-4">
