@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <NewCourseForm />
       <New/>
-      <Intro/>
       <Courseprices/>
+      <Intro/>
       <Page />
       <Add/>
     </div>

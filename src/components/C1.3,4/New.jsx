@@ -18,7 +18,7 @@ const New = () => {
                 } w-60 h-10 py-2 px-4 rounded-full text-lg font-semibold mb-4`}
                 onClick={() => setActiveButton("button1")}
               >
-                Paid
+                General
               </button>
               <button
                 className={`btn ${
@@ -30,7 +30,7 @@ const New = () => {
                   setActiveButton("button2");
                 }}
               >
-                Free
+                Content Drip
               </button>
             </div>
             {activeButton === "button1" && (
