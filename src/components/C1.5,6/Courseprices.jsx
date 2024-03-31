@@ -61,7 +61,7 @@ function CoursePrice() {
                 </div>
                 <div className="w-full px-4">
                   <label htmlFor="difficulty-level" className="block mb-2 font-bold">
-                    Difficulty Level
+                    Choose Categories
                   </label>
                   <select
                     className="w-1000 h-10 text-gray-400 border-2 border-gray-600 p-2 rounded-lg leading-tight"
