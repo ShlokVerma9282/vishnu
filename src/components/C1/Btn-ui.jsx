@@ -17,11 +17,7 @@ function BasicButtons() {
     
   };
 
-  // const hoverStyle = {
-  //   background: 'white',
-  //   color: 'blue',
-  //   borderColor: 'blue', // Added border color for hover
-  // };
+
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
