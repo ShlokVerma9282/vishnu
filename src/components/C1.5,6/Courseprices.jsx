@@ -1,39 +1,39 @@
 import React, { useState } from "react";
 
 function CoursePrice() {
-  const [activeButton, setActiveButton] = useState("button1");
+  const [activeTab, setActiveTab] = useState("button1");
 
   return (
     <div className="bg-gray-100 ">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white rounded-lg shadow-md p-6">
-        <h1 className="text-2xl font-bold text-blue-700">Course Price</h1>
+          <h1 className="text-2xl font-bold text-blue-700">Course Price</h1>
           <div className="m-5 flex items-center">
             <div className="flex flex-col px-5 py-4 rounded-lg">
               <button
                 className={`btn ${
-                  activeButton === "button1"
+                  activeTab === "button1"
                     ? "bg-blue-500 text-white"
                     : "bg-gray-300 text-black-500 hover:bg-blue-400 hover:text-white"
                 } w-60 h-10 py-2 px-4 rounded-full text-lg font-semibold mb-4`}
-                onClick={() => setActiveButton("button1")}
+                onClick={() => setActiveTab("button1")}
               >
                 Paid
               </button>
               <button
                 className={`btn ${
-                  activeButton === "button2"
+                  activeTab === "button2"
                     ? "bg-blue-500 text-white"
                     : "bg-gray-300 text-black-500 hover:bg-blue-400 hover:text-white"
                 } w-60 h-10 py-2 px-4 text-lg font-semibold rounded-full`}
                 onClick={() => {
-                  setActiveButton("button2");
+                  setActiveTab("button2");
                 }}
               >
                 Free
               </button>
             </div>
-            {activeButton === "button1" && (
+            {activeTab === "button1" && (
               <div className="m-4">
                 <div className="m-4">
                   <label htmlFor="regular-price" className="block font-bold">
@@ -75,7 +75,7 @@ function CoursePrice() {
                 </div>
               </div>
             )}
-            {activeButton === "button2" && <p className="text-blue-500">hlo</p>}
+            {activeTab === "button2" && <p className="text-blue-500">hlo</p>}
           </div>
         </div>
       </div>
@@ -83,4 +83,4 @@ function CoursePrice() {
   );
 }
 
-export default  CoursePrice;
+export default CoursePrice;
